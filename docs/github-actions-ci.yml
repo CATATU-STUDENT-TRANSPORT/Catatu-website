@@ -1,3 +1,10 @@
+# CI workflow for CATATU
+#
+# Move this file to `.github/workflows/ci.yml` to enable GitHub Actions.
+# Devin's GitHub OAuth app does not have the `workflow` scope, so this
+# can't be committed to `.github/workflows/` programmatically — copy it
+# in manually, or grant `workflow` scope to the bot.
+
 name: CI
 
 on:
