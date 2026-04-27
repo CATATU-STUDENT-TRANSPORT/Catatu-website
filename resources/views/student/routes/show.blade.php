@@ -3,7 +3,7 @@
 @section('title', $route->start_location.' → '.$route->end_location.' — CATATU')
 
 @section('content')
-<section class="max-w-4xl mx-auto px-4 py-10">
+<section data-vue-root class="max-w-4xl mx-auto px-4 py-10">
     <a href="{{ route('routes.index') }}" class="text-sm text-zinc-500 hover:text-emerald-700">← All routes</a>
 
     <div class="mt-4">

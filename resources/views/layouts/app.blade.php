@@ -43,7 +43,7 @@
         </div>
     </header>
 
-    <main id="vue-app" class="flex-1">
+    <main class="flex-1">
         @if (session('success'))
             <div class="max-w-6xl mx-auto px-4 mt-4">
                 <div class="rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 px-4 py-3 text-sm">
